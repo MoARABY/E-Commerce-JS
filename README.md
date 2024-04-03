@@ -32,11 +32,11 @@
 
 <h2>Usage</h2> 
 <ul>
-  <li>1. Create a Product**: Click on the "Add Product" button and fill in the required information.</li>
-  <li>2. Read Products**: View the list of products displayed on the main page.</li>
-  <li>3. Update a Product**: Click on the "Edit" button next to a product to update its information.</li>
-  <li>4. Delete a Product**: Click on the "Delete" button next to a product to remove it from the system.</li>
-  <li>5. Search for a Product**: Use the search bar to filter products by name.</li>
+  <li>1. Create a Product: Click on the "Add Product" button and fill in the required information.</li>
+  <li>2. Read Products: View the list of products displayed on the main page.</li>
+  <li>3. Update a Product: Click on the "Edit" button next to a product to update its information.</li>
+  <li>4. Delete a Product: Click on the "Delete" button next to a product to remove it from the system.</li>
+  <li>5. Search for a Product: Use the search bar to filter products by name.</li>
 </ul>
 <h2>License</h2>
 <p>This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.</p>
