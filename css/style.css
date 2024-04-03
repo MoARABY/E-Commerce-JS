@@ -1,0 +1,41 @@
+body {
+  background-color: #00223a;
+  color: #fff;
+}
+input {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: none;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  background-color: #020b13;
+  transition: 0.3s;
+}
+input:focus {
+  background-color: #000000;
+  transform: scale(1.05);
+}
+.prices input {
+  width: 19%;
+}
+.btn {
+  margin-top: 10px;
+  background-color: #23a3fe;
+  color: #fff;
+  width: 50%;
+  transition: 0.3s;
+}
+.btn:hover {
+  letter-spacing: 1px;
+}
+.pTable {
+  width: 100%;
+  background-color: #23a3fe;
+}
+.pTable tbody {
+  background-color: #1c3344;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Product Management System</title>
+</head>
+
+<body>
+    <section class="main-header text-center pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="fw-bold">Product Management System</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- inputs---------------------------------------------------------------------------------->
+
+    <section class="main-input text-center pt-5 pb-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col12">
+                    <input type="text" name="" id="p-name" placeholder="Product Name">
+                    <!--  -->
+                    <input type="text" name="" id="p-category" placeholder="Category">
+                    <!--  -->
+                    <div class="prices">
+                        <input type="number" name="" id="p-price" placeholder="Price">
+                        <!--  -->
+                        <input type="number" name="" id="p-taxes" placeholder="Taxes">
+                        <!--  -->
+                        <input type="number" name="" id="p-ads" placeholder="ADS">
+                        <!--  -->
+                        <input type="number" name="" id="p-discount" placeholder="Discount">
+                        <!--  -->
+                        <input type="number" name="" id="p-total" placeholder="Total" value="0" readonly>
+                        <!--  -->
+                    </div>
+                    <input type="text" name="" id="p-quantity" placeholder="Quantity">
+                    <!--  -->
+                    <div class="btn rounded-pill createBTN">CREATE</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- outputs---------------------------------------------------------------------------------->
+
+    <section class="main-output text-center pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <input type="text" name="" id="product-name" placeholder="Product Name">
+                    <!--  -->
+                    <div class="btn rounded-pill SearchBTN mb-3">SEARCH</div>
+                </div>
+                <div class="col-12">
+                    <table class="pTable">
+                        <thead>
+                            <th>ID</th>
+                            <th>Product Name</th>
+                            <th>Category</th>
+                            <th>Price</th>
+                            <th>Taxes</th>
+                            <th>ADS</th>
+                            <th>Discount</th>
+                            <th>Total</th>
+                            <th>Quantity</th>
+                        </thead>
+                        <tbody id="tbody">
+                        </tbody>
+                    </table>
+                    <div class="btn rounded-pill createBTN-ALL">Delete All</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
