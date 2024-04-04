@@ -3,19 +3,19 @@
 
 <h2>Features</h2>
 <ul>
-  <li>- Create new products</li>
-  <li>- Read existing products</li>
-  <li>- Update product information</li>
-  <li>- Delete products from the system</li>
-  <li>- Search for products by name</li>
+  <li> Create new products</li>
+  <li> Read existing products</li>
+  <li> Update product information</li>
+  <li> Delete products from the system</li>
+  <li> Search for products by name</li>
 </ul>
 
 <h2>Technologies Used</h2> 
 <ul>
-  <li> - JavaScript</li>
-  <li> - HTML</li>
-  <li> - CSS</li>
-  <li> - Bootstrap</li>
+  <li> JavaScript</li>
+  <li> HTML</li>
+  <li> CSS</li>
+  <li> Bootstrap</li>
 </ul>
 
 
